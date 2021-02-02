@@ -1,0 +1,29 @@
+on your xampp folder go to the PHP folder than look for php.ini
+
+one you finish php.ini changes go on your xampp folder go to the sendmail folder than look for sendmail.ini
+
+
+use the find feature and look for [mail function] for php.ini
+
+use find feature and look for [sendmail] for sendmail.ini
+
+// php.ini changes
+
+make sure you change the port to your email port for instance gmail is 587
+
+change your smpt to SMTP=smtp.gmail.com if you are using gmail
+
+ensure yoo have  sendmail_path = "\"C:\xampp\sendmail\sendmail.exe\" -t" 
+
+ make sure sendmail_from = youremail@gmail.com is your email 
+
+ // sendmail.ini changes
+
+ set it to gmail if using gmail like smtp_server=smtp.gmail.com 
+
+ once again change the port like smtp_port=587
+
+next
+auth_username=youremail@gmail.com makes sure this is your email address
+
+auth_password=yourpassword ensure this is your password dont leave it black or as yourpassword
